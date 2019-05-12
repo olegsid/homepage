@@ -23,3 +23,7 @@ deploy:
     acl: public_read
     on:
       branch: master
+branches:
+  only:
+    - develop
+    - master
