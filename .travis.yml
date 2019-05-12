@@ -5,6 +5,8 @@ script:
   - npm install --global workbox-cli
   - workbox generateSW workbox-config.js
   - npm run build
+before_deploy:
+  - rm -rf node_modules
 deploy:
   - provider: s3
     skip_cleanup: true
