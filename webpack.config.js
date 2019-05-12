@@ -1,5 +1,5 @@
 const path = require('path')
-
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const distPath = path.join(__dirname, '/dist')
 
 const withBabel = {
@@ -14,8 +14,16 @@ const withBabel = {
 }
 
 const withScss = {
-  test: /\.scss$/,
-  use: ['style-loader', 'css-loader', 'sass-loader']
+  test: /\.(sc|c)ss$/,
+  use: [
+    {
+      loader: MiniCssExtractPlugin.loader,
+      options: {
+      }
+    },
+    'css-loader',
+    'sass-loader'
+  ]
 }
 
 const withUrlLoader = {
@@ -34,7 +42,8 @@ const config = {
   },
   module: {
     rules: [withBabel, withScss, withUrlLoader]
-  }
+  },
+  plugins: [new MiniCssExtractPlugin()]
 }
 
 module.exports = config
