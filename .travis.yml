@@ -28,4 +28,3 @@ branches:
   only:
     - develop
     - master
-    - fix/dist
