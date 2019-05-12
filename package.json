@@ -4,7 +4,8 @@
   "description": "learning ci-cd",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --config webpack.config.js --watch --mode development"
+    "start": "webpack --config webpack.config.js --watch --mode development",
+    "build": "webpack --config webpack.config.js --mode production"
   },
   "repository": {
     "type": "git",
