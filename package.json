@@ -1,6 +1,6 @@
 {
   "name": "homepage",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "learning ci-cd",
   "main": "index.js",
   "scripts": {
