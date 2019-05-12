@@ -1,0 +1,21 @@
+{
+  "name": "homepage",
+  "version": "0.0.1",
+  "description": "learning ci-cd",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olegsid/homepage.git"
+  },
+  "keywords": [
+    "ci-cd",
+    "bsa19"
+  ],
+  "author": "Oleg Shevchuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olegsid/homepage/issues"
+  },
+  "homepage": "https://github.com/olegsid/homepage#readme"
+}
