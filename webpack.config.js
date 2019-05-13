@@ -15,11 +15,8 @@ const withBabel = {
 
 const withScss = {
   test: /\.(sc|c)ss$/,
-  use: [
-    {
+  use: [{
       loader: MiniCssExtractPlugin.loader,
-      options: {
-      }
     },
     'css-loader',
     'sass-loader'
