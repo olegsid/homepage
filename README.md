@@ -13,3 +13,14 @@ _Links to_:
 - [Develop instance](http://oleg.shevchuk.com-develop.s3-website.eu-central-1.amazonaws.com)
 
 - [Production instance](http://oleg.shevchuk.com-production.s3-website.eu-central-1.amazonaws.com)
+
+## Development process
+
+Run `npm i` to install all deps
+
+Commandlist:
+
+- `npm start` - runs devepment build watcher
+  
+- `npm build` - makes producntion build
+  
