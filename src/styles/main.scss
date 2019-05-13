@@ -22,7 +22,7 @@
 }
 
 body,
-body > main {
+body>main {
   background-image: url(../../media/images/orange.png);
   background-size: 50px 50px;
   background-repeat: repeat;
@@ -54,10 +54,7 @@ summary,
 summary:focus {
   outline: none;
 }
-summary:hover{
-   box-shadow: 0 0 2px #d45244;
-}
 
-@media screen and (max-width:768px){
-
+summary:hover {
+  box-shadow: 0 0 2px #d45244;
 }
