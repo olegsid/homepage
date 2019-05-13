@@ -18,7 +18,7 @@ _Links to_:
 
 Run `npm i` to install all deps
 
-Commandlist:
+Commands list:
 
 - `npm start` - runs development build watcher
   
