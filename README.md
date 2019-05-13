@@ -20,7 +20,7 @@ Run `npm i` to install all deps
 
 Commandlist:
 
-- `npm start` - runs devepment build watcher
+- `npm start` - runs development build watcher
   
-- `npm build` - makes producntion build
+- `npm build` - makes production build
   
